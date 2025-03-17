@@ -1,0 +1,11 @@
+echo "# Ignore system and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore any environment or virtual env folders
+venv/
+env/
+*.pyc
+__pycache__/" > .gitignore
